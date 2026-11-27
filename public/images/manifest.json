@@ -1,0 +1,221 @@
+{
+    "alpine-summit": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "bangkok-street-food": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "big-list-mountains": {
+        "width": 1400,
+        "height": 933,
+        "widths": [
+            480,
+            960,
+            1400
+        ]
+    },
+    "boutique-hotel": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "dest-agra": {
+        "width": 800,
+        "height": 530,
+        "widths": [
+            480,
+            800
+        ]
+    },
+    "dest-kyoto": {
+        "width": 800,
+        "height": 534,
+        "widths": [
+            480,
+            800
+        ]
+    },
+    "dest-london": {
+        "width": 800,
+        "height": 533,
+        "widths": [
+            480,
+            800
+        ]
+    },
+    "dest-maldives": {
+        "width": 800,
+        "height": 1000,
+        "widths": [
+            480,
+            800
+        ]
+    },
+    "dest-new-york": {
+        "width": 800,
+        "height": 533,
+        "widths": [
+            480,
+            800
+        ]
+    },
+    "dest-paris": {
+        "width": 800,
+        "height": 532,
+        "widths": [
+            480,
+            800
+        ]
+    },
+    "guide-iceland": {
+        "width": 1000,
+        "height": 664,
+        "widths": [
+            480,
+            960,
+            1000
+        ]
+    },
+    "guide-maldives": {
+        "width": 1000,
+        "height": 665,
+        "widths": [
+            480,
+            960,
+            1000
+        ]
+    },
+    "guide-patagonia": {
+        "width": 1000,
+        "height": 667,
+        "widths": [
+            480,
+            960,
+            1000
+        ]
+    },
+    "halong-bay": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "hero-bali": {
+        "width": 2000,
+        "height": 2654,
+        "widths": [
+            480,
+            960,
+            1440,
+            2000
+        ]
+    },
+    "hero-himalaya": {
+        "width": 2000,
+        "height": 1334,
+        "widths": [
+            480,
+            960,
+            1440,
+            2000
+        ]
+    },
+    "hero-italy-coast": {
+        "width": 2000,
+        "height": 3033,
+        "widths": [
+            480,
+            960,
+            1440,
+            2000
+        ]
+    },
+    "hotel-pool": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "jaipur": {
+        "width": 1400,
+        "height": 933,
+        "widths": [
+            480,
+            960,
+            1400
+        ]
+    },
+    "road-trip": {
+        "width": 900,
+        "height": 1350,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "santorini": {
+        "width": 900,
+        "height": 624,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "swiss-lakes": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "taj-mahal": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "tasting-menu": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "tokyo": {
+        "width": 900,
+        "height": 584,
+        "widths": [
+            480,
+            900
+        ]
+    },
+    "travel-with-locals": {
+        "width": 900,
+        "height": 600,
+        "widths": [
+            480,
+            900
+        ]
+    }
+}

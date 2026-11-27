@@ -1,0 +1,123 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../views/**/*.blade.php';
+@source '../../app/Support/**/*.php';
+
+/* Tokens from the clean editorial design system: charcoal on white, accents used sparingly. */
+:root {
+    --ink: #212529;      /* primary / on-surface */
+    --accent: #0d6efd;   /* secondary — links and interactive emphasis */
+    --subtle: #6c757d;   /* tertiary — metadata */
+    --muted: #6b7280;    /* captions */
+    --line: #e5e7eb;     /* borders and dividers */
+    --success: #198754;  /* eyebrow labels */
+    --error: #dc3545;
+    --surface: #ffffff;
+    --paper: #f8f9fa;    /* image placeholder tint */
+}
+
+@theme inline {
+    --color-ink: var(--ink);
+    --color-accent: var(--accent);
+    --color-subtle: var(--subtle);
+    --color-muted: var(--muted);
+    --color-line: var(--line);
+    --color-success: var(--success);
+    --color-error: var(--error);
+    --color-surface: var(--surface);
+    --color-paper: var(--paper);
+    --font-display: var(--font-anton), 'Arial Narrow', sans-serif;
+    --font-serif: var(--font-cormorant), Georgia, serif;
+    --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+    background: var(--ink);
+    color: #fff;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+/* Eyebrow label: small, semibold, widely tracked uppercase */
+.eyebrow {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* Bordered editorial card: white, 1px border, 8px radius, 16px padding, no heavy shadow */
+.card {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    border: 1px solid var(--line);
+    border-radius: 0.5rem;
+    background: var(--surface);
+    padding: 1rem;
+    transition: border-color 0.3s ease;
+}
+.card:hover {
+    border-color: #c9ced4;
+}
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.8s ease-out;
+}
+.group:hover .card-img {
+    transform: scale(1.03);
+}
+
+/* Outlined, text-forward button */
+.btn {
+    display: inline-flex;
+    height: 47px;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--ink);
+    border-radius: 0.375rem;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.btn:hover {
+    background: var(--ink);
+    color: #fff;
+}
+
+/* Gentle fade-in on first scroll into view (<x-reveal>) */
+.reveal {
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+    transition-delay: var(--delay, 0ms);
+}
+.reveal.is-visible {
+    opacity: 1;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .reveal { opacity: 1; transition: none; }
+    .card-img { transition: none; }
+}
