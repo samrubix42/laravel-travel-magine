@@ -25,6 +25,12 @@ class HomePageTest extends TestCase
             ->assertSeeLivewire('newsletter-signup');
     }
 
+    public function test_pages_tell_search_engines_not_to_index(): void
+    {
+        $this->get(route('home'))
+            ->assertSee('<meta name="robots" content="noindex, nofollow">', false);
+    }
+
     public function test_first_hero_image_is_preloaded_and_not_lazy(): void
     {
         $response = $this->get(route('home'));

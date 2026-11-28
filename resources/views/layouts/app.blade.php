@@ -6,6 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta name="robots" content="noindex, nofollow">
 
         <title>{{ $title ?? 'Travel Magine — Stories, Guides & Inspiration for Curious Travellers' }}</title>
         <meta name="description" content="Travel stories, destination guides, hotel reviews and expert tips from the editors of Travel Magine.">
