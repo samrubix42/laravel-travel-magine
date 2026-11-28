@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/mobiyqdc/demo.shallomprefabsystems.com
+    - /bin/cp -R * $DEPLOYPATH 
+
+
+    
